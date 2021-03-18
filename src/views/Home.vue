@@ -214,7 +214,7 @@
             <div class="card">
               <img src="/img/klego.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="/klego" target="_blank">
+                <a href="https://klego.primavillage.id" target="_blank">
                   <h4 class="card-title text-green m-0">Desa Klego</h4>
                 </a>
               </div>
@@ -224,7 +224,7 @@
             <div class="card">
               <img src="/img/klego.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="/kendel" target="_blank">
+                <a href="https://kendel.primavillage.id" target="_blank">
                   <h4 class="card-title text-green m-0">Desa Kendel</h4>
                 </a>
               </div>
@@ -234,7 +234,7 @@
             <div class="card">
               <img src="/img/banyuurip.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <a href="https://klego.primavillage.id" target="_blank">
+                <a href="https://banyuurip.primavillage.id" target="_blank">
                   <h4 class="card-title text-green m-0">Desa Banyu Urip</h4>
                 </a>
               </div>
