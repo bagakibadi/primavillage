@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/logo.ico"><title>Prima Village Web</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link href="./assets/css/style.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"><link href="/css/app.9d57a307.css" rel="preload" as="style"><link href="/css/chunk-vendors.0d9171ac.css" rel="preload" as="style"><link href="/js/app.822043df.js" rel="preload" as="script"><link href="/js/chunk-vendors.3683e134.js" rel="preload" as="script"><link href="/css/chunk-vendors.0d9171ac.css" rel="stylesheet"><link href="/css/app.9d57a307.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but primavillage doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script>function initMap() {
+        const LatLang = [
+          ['Klego', -7.3669221,110.6791238],
+          ['Kendel', -7.3292731,110.7069848],
+          ['Banyu Urip', -7.345619728318467,110.71585293383785]
+        ]
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 7,
+          center: new google.maps.LatLng(-7.3669221,110.6791238),
+          scrollwheel: false,
+          draggable: true,
+        });
+        const infowindow = new google.maps.InfoWindow();
+        var marker, i;
+        for (i = 0; i < LatLang.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(LatLang[i][1], LatLang[i][2],),
+            icon: {
+              url: '/img/marker.svg',
+              scaledSize : new google.maps.Size(45, 50),
+            },
+            // icon: 'https://cdn3.iconfinder.com/data/icons/map-markers-1/512/residence-512.png',
+            // scaledSize : new google.maps.Size(22, 32),
+            map: map
+          });
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent('<b>Desa : ' + LatLang[i][0] +'</b>')
+              // infowindow.setContent('<b> KABUPATEN : ' + datasi[i].NMKAB + '</b>' + '<br/>' + '<br/>' +  'Jumlah Rumah Tangga : ' + '<p class="jumlah">' + datasi[i].JUMLAH_RUTA + '</p>' + '<br/>' + 'Jumlah Keluarga : ' + '<p class="jumlah">' + datasi[i].JUMLAH_KELUARGA + '</p>' + '<br/>' + 'Jumlah Individu : ' + '<p class="jumlah">' + datasi[i].JUMLAH_INDIVIDU + '</p>' + '<br/>' + 'Jumlah PBDT : ' + '<p class="jumlah">' + datasi[i].JUMLAH_PBDT + '</p>' + '<br/>' + 'Jumlah PKH : ' + datasi[i].JUMLAH_PKH );
+              infowindow.open(map, marker);
+            }
+          })(marker, i))
+        }
+      }</script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqjtleFQGb3-KqRsq-Peg1NsatgWwgmlw&callback=initMap&libraries=&v=weekly" async></script><script src="/js/chunk-vendors.3683e134.js"></script><script src="/js/app.822043df.js"></script></body></html>
