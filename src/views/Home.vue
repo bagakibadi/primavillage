@@ -196,9 +196,11 @@
       </div>
     </div>
 
-    <div class="container my-5" id="map-desa" style="padding-top: 120px">
-      <h1 class="text-green font-weight-bold text-center mb-4" data-translatable="" data-dom-i18n-id="i18n1615256342335539.6009804439918" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Peta Desa Prima Village</h1>
-      <div id="map" style="height: 450px; width: 100%;border-radius: 20px;box-shadow: 0 0 15px 5px rgba(0,0,0,0.1)"> </div>
+    <div class="action-section bg-white" id="map-desa" style="padding-top: 120px">
+      <div class="container">
+        <h1 class="text-green font-weight-bold text-center mb-4" data-translatable="" data-dom-i18n-id="i18n1615256342335539.6009804439918" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Peta Desa Prima Village</h1>
+        <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" id="map" style="height: 450px; width: 100%;border-radius: 20px;box-shadow: 0 0 15px 5px rgba(0,0,0,0.1)"> </div>
+      </div>
     </div>
     
     <div class="project-section" id="client">

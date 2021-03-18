@@ -35,7 +35,7 @@
 							</a>
 						</li>
 						<li>
-							<a class="text" data-translatable="" href="#" data-dom-i18n-id="i18n1615261805891108.26124095196698">BUMDesa Banyu Urip
+							<a class="text" data-translatable="" href="#" data-dom-i18n-id="i18n1615261805891108.26124095196698">BUMDesa Banyuurip
 							</a>
 						</li>
 
