@@ -112,7 +112,7 @@
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.youtube.com/channel/UCeimHVGMd5HaRbZTNu-Gs6Q">
 								<i class="fab fa-youtube"></i>
 							</a>
 						</li>
