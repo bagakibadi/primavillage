@@ -224,7 +224,7 @@
           </div>
           <div class="col-md-4 mb-4" data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="800">
             <div class="card">
-              <img src="/img/klego.png" class="card-img-top" alt="...">
+              <img src="/img/kendel.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <a href="https://kendel.primavillage.id" target="_blank">
                   <h4 class="card-title text-green m-0">Desa Kendel</h4>
