@@ -87,7 +87,7 @@
               </h2>
               <p class="content-desc" data-translatable="" data-dom-i18n-id="i18n1615256342336419.47803725844545">
                 <span>
-                  Aplikasi yang diciptakan untuk memudahkan masyarakat untuk menunjang ekonomi dan kemandirian desa sehingga menjadi desa yang berdaya.
+                  Aplikasi yang disiapkan untuk memudahkan masyarakat untuk menunjang ekonomi dan kemandirian desa sehingga menjadi desa yang berdaya.
                 </span>
               </p>
             </div>

@@ -8,7 +8,7 @@
 			</video>
 		</div>
 		<div class="text-intro">
-			<h1 class="text1">Primavillage</h1>
+			<h1 class="text1">Prima Village</h1>
 			<h1 class="text2">#MajuBersamaDesa</h1>
 		</div>
 	</div>
